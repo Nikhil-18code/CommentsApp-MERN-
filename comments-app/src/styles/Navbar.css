@@ -1,0 +1,87 @@
+.navbar {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.profileWrapper {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileIcon {
+  font-size: 24px;
+  background: #eee;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/* 🔽 Dropdown */
+.profileDropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 220px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.profileDropdown h4 {
+  margin-bottom: 10px;
+}
+
+.profileDropdown p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.profileDropdown button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+/* .modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+} */
+.username {
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+}
